@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="./movie.css"/>
+    <title>MyMovie</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">MyMovie</a>
+      <ul class="nav">
+        <li>
+          <a href="#"><i class="fa fa-home" aria-hidden="true"></i></a>
+        </li>
+        <li><a href="#">tv series</a></li>
+        <li><a href="#">Films</a></li>
+        <li><a href="#">My List </a></li>
+      </ul>
+      <div class="search">
+        <input type="text" placeholder="Search"/>
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </div>
+    </header>
+    <div class="banner">
+      <div class="content dots active">
+        <img src="./images/dots_title.png" alt="" class="movie-title">
+        <h4>
+          <span>2016</span><span><i>16+</i></span><span>16 episodes</span><span>Romance/Thriller</span>
+        </h4>
+        <p>Shi-Jin is the captain of the special forces.The thief he catched is injured during his capture and is sent to the hospital. 
+          In the emergency room, Shi-Jin meets Dr. Mo-Yeon for the first time. He falls in love with her immediately and later they begin to date, but their dates don't go well due to their jobs.
+          side story is about Dae-young and Myeong-Joo who started fake dating to solve both of their problems and finally fell in love.
+        </p>
+        <div class="button">
+          <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Watch</a>
+          <a href=""><i class="fa fa-plus" aria-hidden="true"></i>My List</a>
+        </div>
+      </div>
+      <div class="content doom">
+        <img src="./images/doom_title.png" alt="" class="movie-title">
+        <h4>
+          <span>2021</span><span><i>16+</i></span><span>16 episodes</span><span>Romance/Fantacy</span>
+        </h4>
+        <p> Tak Dong Kyung lives a fairly ordinary life until she stumbles into an unexpected fate and ends up signing a
+           hundred-day contract with Myul Mang,the doom risking her everything to help a live through her painfull cancer.
+           they finally crossed the limits and fell in love with eachother.
+        </p>
+        <div class="button">
+          <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Watch</a>
+          <a href=""><i class="fa fa-plus" aria-hidden="true"></i>My List</a>
+        </div>
+      </div>
+      <div class="content moonlover">
+        <img src="./images/mlover_title.jpg" alt="" class="movie-title">
+        <h4>
+          <span>2016</span><span><i>16+</i></span><span>20 episodes</span><span>Romance/Time Travel</span>
+        </h4>
+        <p> Ha-jin travels 1000 years back in time and lands in the era of Goryeo Dynasty as a young girl named Hae-soo.
+           She, now trapped in another person's body, becomes involved in a
+           power struggle against various vicious contenders to the throne.
+        </p>
+        <div class="button">
+          <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Watch</a>
+          <a href=""><i class="fa fa-plus" aria-hidden="true"></i>My List</a>
+        </div>
+      </div>
+      <div class="content w">
+        <img src="./images/w_title2.png" alt="" class="movie-title">
+        <h4>
+          <span>2016</span><span><i>16+</i></span><span>20 episodes</span><span>Romance/Fantacy</span>
+        </h4>
+        <p>Oh Sung Moo, the father of cardiothoracic surgeon Oh Yeon Joo,
+           mysteriously goes missing while writing the last chapter of his webtoon "W". Yeon Joo goes to his office looking, but a hand from his 
+           monitor suddenly pulls her in, and she finds herself on the rooftop of a building, next to a bloodied man. She manages to save the person, only to realize that he is Kang Cheol,
+           the main character of her father's webtoon. Yeon Joo later discovers she can only enter and leave the webtoon depending on Kang Cheol's feelings.
+        </p>
+        <div class="button">
+          <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Watch</a>
+          <a href=""><i class="fa fa-plus" aria-hidden="true"></i>My List</a>
+        </div>
+      </div>
+      <div class="content mlight">
+        <img src="./images/moonlight_title.png" alt="" class="movie-title">
+        <h4>
+          <span>2016</span><span><i>16+</i></span><span>18 episodes</span><span>Romance/Historical</span>
+        </h4>
+        <p>A young Joseon woman who's lived her whole life as a man ends up 
+          as a eunuch in the royal palace,
+           where she begins to bond with the crown prince.
+        </p>
+        <div class="button">
+          <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Watch</a>
+          <a href=""><i class="fa fa-plus" aria-hidden="true"></i>My List</a>
+        </div>
+      </div>
+      <div class="carousel-box">
+        <div class="carousel">
+          
+          <div class="carousel-item" onClick="changeBg('dots_wall2.jpg','dots');">
+            <img src="./images/dots_box.jpg" alt="" class="src">
+          </div>
+          <div class="carousel-item" onClick="changeBg('mlover_wall.jpg','moonlover');">
+            <img src="./images/mlover_box.jpg" alt="" class="src">
+          </div>
+          <div class="carousel-item" onClick="changeBg('moonlight_wall.jpg','mlight');">
+            <img src="./images/Moonlight_box.webp" alt="" class="src">
+          </div>
+          <div class="carousel-item" onClick="changeBg('doom_wall.jpeg','doom');">
+            <img src="./images/doom_box.jpg" alt="" class="src">
+          </div>
+          <div class="carousel-item" onClick="changeBg('w_wall.png','w');">
+            <img src="./images/w_box.jpg" alt="" class="src">
+          </div>
+          
+        </div>
+      </div>
+        
+      <a href="#" class="play"><i class="fa fa-play-circle" aria-hidden="true"></i>Watch Trailer</a>
+      <ul class="sci">
+        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      </ul>
+
+      
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./movie.js"></script>   
+    <script>
+      $(document).ready(function(){
+       $('.carousel').carousel();
+      });
+    </script>
+    
+  </body>
+</div>
